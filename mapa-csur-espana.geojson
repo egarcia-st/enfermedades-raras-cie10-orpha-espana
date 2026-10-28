@@ -1,0 +1,518 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Red de Hospitales CSUR y Centros de Referencia en Enfermedades Raras de España 2026",
+    "autor": "SINDIAGNÓSTICO · Asociación Española de Pacientes Sin Diagnóstico",
+    "version": "2026.1.0",
+    "fecha": "2026-10-28",
+    "licencia": "Open Data Commons Open Database License (ODbL) / CC-BY 4.0",
+    "sitio_web": "https://sindiagnostico.org/guia-del-paciente/"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6881,
+          40.4816
+        ]
+      },
+      "properties": {
+        "nombre": "Hospital Universitario La Paz",
+        "ciudad": "Madrid",
+        "comunidad": "Comunidad de Madrid",
+        "codigo_ccaa": "madrid",
+        "csur_designaciones": 28,
+        "especialidades_destacadas": [
+          "Genética Médica",
+          "Enfermedades Metabólicas",
+          "Neurogenética Pediátrica",
+          "Dismorfología"
+        ],
+        "coordinador_red": "Instituto de Genética Médica y Molecular (INGEMM)",
+        "direccion": "Paseo de la Castellana 261, 28046 Madrid",
+        "telefono": "+34 917 27 70 00",
+        "url_guia": "https://sindiagnostico.org/guia-del-paciente/madrid/",
+        "marker-color": "#2563eb",
+        "marker-symbol": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6978,
+          40.378
+        ]
+      },
+      "properties": {
+        "nombre": "Hospital Universitario 12 de Octubre",
+        "ciudad": "Madrid",
+        "comunidad": "Comunidad de Madrid",
+        "codigo_ccaa": "madrid",
+        "csur_designaciones": 21,
+        "especialidades_destacadas": [
+          "Enfermedades Mitocondriales",
+          "Cardiopatías Familiares",
+          "Enfermedades Raras del Adulto"
+        ],
+        "coordinador_red": "Unidad de Enfermedades Raras Multidisciplinar",
+        "direccion": "Avenida de Córdoba s/n, 28041 Madrid",
+        "telefono": "+34 913 90 80 00",
+        "url_guia": "https://sindiagnostico.org/guia-del-paciente/madrid/",
+        "marker-color": "#2563eb",
+        "marker-symbol": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6706,
+          40.4192
+        ]
+      },
+      "properties": {
+        "nombre": "Hospital General Universitario Gregorio Marañón",
+        "ciudad": "Madrid",
+        "comunidad": "Comunidad de Madrid",
+        "codigo_ccaa": "madrid",
+        "csur_designaciones": 19,
+        "especialidades_destacadas": [
+          "Cardiopatías Familiares",
+          "Metabolopatías Congénitas",
+          "Enfermedades Autoinmunes"
+        ],
+        "coordinador_red": "Servicio de Genética y Medicina Personalizada",
+        "direccion": "Calle del Doctor Esquerdo 46, 28007 Madrid",
+        "telefono": "+34 915 86 80 00",
+        "url_guia": "https://sindiagnostico.org/guia-del-paciente/madrid/",
+        "marker-color": "#2563eb",
+        "marker-symbol": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6789,
+          40.4168
+        ]
+      },
+      "properties": {
+        "nombre": "Hospital Infantil Universitario Niño Jesús",
+        "ciudad": "Madrid",
+        "comunidad": "Comunidad de Madrid",
+        "codigo_ccaa": "madrid",
+        "csur_designaciones": 14,
+        "especialidades_destacadas": [
+          "Neurología Pediátrica",
+          "Errores Innatos del Metabolismo",
+          "Epilepsias Refractarias"
+        ],
+        "coordinador_red": "Unidad de Ensayos Clínicos Pediátricos y Genómica",
+        "direccion": "Avenida de Menéndez Pelayo 65, 28009 Madrid",
+        "telefono": "+34 915 03 59 00",
+        "url_guia": "https://sindiagnostico.org/guia-del-paciente/madrid/",
+        "marker-color": "#2563eb",
+        "marker-symbol": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1026,
+          41.3837
+        ]
+      },
+      "properties": {
+        "nombre": "Hospital Sant Joan de Déu",
+        "ciudad": "Esplugues de Llobregat / Barcelona",
+        "comunidad": "Cataluña",
+        "codigo_ccaa": "cataluna",
+        "csur_designaciones": 24,
+        "especialidades_destacadas": [
+          "Enfermedades Raras Pediátricas",
+          "Neurodesarrollo",
+          "Genómica Clínica Pediátrica"
+        ],
+        "coordinador_red": "Xarxes d'Unitats d'Expertesa Clínica (XUEC) Cataluña",
+        "direccion": "Passeig de Sant Joan de Déu 2, 08950 Esplugues de Llobregat",
+        "telefono": "+34 932 53 21 00",
+        "url_guia": "https://sindiagnostico.org/guia-del-paciente/cataluna/",
+        "marker-color": "#2563eb",
+        "marker-symbol": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1432,
+          41.4285
+        ]
+      },
+      "properties": {
+        "nombre": "Hospital Universitari Vall d'Hebron",
+        "ciudad": "Barcelona",
+        "comunidad": "Cataluña",
+        "codigo_ccaa": "cataluna",
+        "csur_designaciones": 33,
+        "especialidades_destacadas": [
+          "Inmunodeficiencias Primarias",
+          "Enfermedades Neuromusculares",
+          "Metabolopatías"
+        ],
+        "coordinador_red": "Grup de Malalties Minoritàries Vall d'Hebron",
+        "direccion": "Passeig de la Vall d'Hebron 119, 08035 Barcelona",
+        "telefono": "+34 934 89 30 00",
+        "url_guia": "https://sindiagnostico.org/guia-del-paciente/cataluna/",
+        "marker-color": "#2563eb",
+        "marker-symbol": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1508,
+          41.3892
+        ]
+      },
+      "properties": {
+        "nombre": "Hospital Clínic de Barcelona",
+        "ciudad": "Barcelona",
+        "comunidad": "Cataluña",
+        "codigo_ccaa": "cataluna",
+        "csur_designaciones": 25,
+        "especialidades_destacadas": [
+          "Enfermedades Autoinmunes Sistémicas",
+          "Amiloidosis",
+          "Neurogenética del Adulto"
+        ],
+        "coordinador_red": "Unitat de Malalties Autoimmunes i Minoritàries",
+        "direccion": "Carrer de Villarroel 170, 08036 Barcelona",
+        "telefono": "+34 932 27 54 00",
+        "url_guia": "https://sindiagnostico.org/guia-del-paciente/cataluna/",
+        "marker-color": "#2563eb",
+        "marker-symbol": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1083,
+          41.3533
+        ]
+      },
+      "properties": {
+        "nombre": "Hospital Universitari de Bellvitge",
+        "ciudad": "L'Hospitalet de Llobregat",
+        "comunidad": "Cataluña",
+        "codigo_ccaa": "cataluna",
+        "csur_designaciones": 17,
+        "especialidades_destacadas": [
+          "Enfermedades Neuromusculares Raras",
+          "Esclerosis Lateral Amiotrófica",
+          "Ataxias"
+        ],
+        "coordinador_red": "Unitat Funcional de Malalties de la Motoneurona",
+        "direccion": "Carrer de la Feixa Llarga s/n, 08907 L'Hospitalet de Llobregat",
+        "telefono": "+34 932 60 75 00",
+        "url_guia": "https://sindiagnostico.org/guia-del-paciente/cataluna/",
+        "marker-color": "#2563eb",
+        "marker-symbol": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9798,
+          37.3601
+        ]
+      },
+      "properties": {
+        "nombre": "Hospital Universitario Virgen del Rocío",
+        "ciudad": "Sevilla",
+        "comunidad": "Andalucía",
+        "codigo_ccaa": "andalucia",
+        "csur_designaciones": 24,
+        "especialidades_destacadas": [
+          "Enfermedades Raras Pediátricas y del Adulto",
+          "Dismorfología",
+          "Neurogenética"
+        ],
+        "coordinador_red": "Plan de Atención a Personas Afectadas por Enfermedades Raras (PAPER Andalucía)",
+        "direccion": "Avenida Manuel Siurot s/n, 41013 Sevilla",
+        "telefono": "+34 955 01 20 00",
+        "url_guia": "https://sindiagnostico.org/guia-del-paciente/andalucia/",
+        "marker-color": "#2563eb",
+        "marker-symbol": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.7963,
+          37.8643
+        ]
+      },
+      "properties": {
+        "nombre": "Hospital Universitario Reina Sofía",
+        "ciudad": "Córdoba",
+        "comunidad": "Andalucía",
+        "codigo_ccaa": "andalucia",
+        "csur_designaciones": 16,
+        "especialidades_destacadas": [
+          "Trasplante en Enfermedades Metabólicas",
+          "Cardiopatías Familiares",
+          "Genética Médica"
+        ],
+        "coordinador_red": "Unidad de Genética y Dismorfología",
+        "direccion": "Avenida Menéndez Pidal s/n, 14004 Córdoba",
+        "telefono": "+34 957 01 00 00",
+        "url_guia": "https://sindiagnostico.org/guia-del-paciente/andalucia/",
+        "marker-color": "#2563eb",
+        "marker-symbol": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3768,
+          39.4442
+        ]
+      },
+      "properties": {
+        "nombre": "Hospital Universitari i Politècnic La Fe",
+        "ciudad": "Valencia",
+        "comunidad": "Comunidad Valenciana",
+        "codigo_ccaa": "comunidad-valenciana",
+        "csur_designaciones": 22,
+        "especialidades_destacadas": [
+          "Enfermedades Metabólicas Congénitas",
+          "Coagulopatías Congénitas",
+          "Ataxias y Paraparesias"
+        ],
+        "coordinador_red": "Área Clínica de Genética y Enfermedades Raras",
+        "direccion": "Avinguda de Fernando Abril Martorell 106, 46026 València",
+        "telefono": "+34 961 24 40 00",
+        "url_guia": "https://sindiagnostico.org/guia-del-paciente/comunidad-valenciana/",
+        "marker-color": "#2563eb",
+        "marker-symbol": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5639,
+          42.8687
+        ]
+      },
+      "properties": {
+        "nombre": "Complexo Hospitalario Universitario de Santiago (CHUS)",
+        "ciudad": "Santiago de Compostela",
+        "comunidad": "Galicia",
+        "codigo_ccaa": "galicia",
+        "csur_designaciones": 14,
+        "especialidades_destacadas": [
+          "Errores Congénitos del Metabolismo",
+          "Medicina Genómica",
+          "Diagnóstico Molecular"
+        ],
+        "coordinador_red": "Fundación Pública Galega de Medicina Xenómica (FPGMX)",
+        "direccion": "Rúa da Choupana s/n, 15706 Santiago de Compostela",
+        "telefono": "+34 981 95 00 00",
+        "url_guia": "https://sindiagnostico.org/guia-del-paciente/galicia/",
+        "marker-color": "#2563eb",
+        "marker-symbol": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9839,
+          43.2828
+        ]
+      },
+      "properties": {
+        "nombre": "Hospital Universitario Cruces",
+        "ciudad": "Barakaldo",
+        "comunidad": "País Vasco",
+        "codigo_ccaa": "pais-vasco",
+        "csur_designaciones": 15,
+        "especialidades_destacadas": [
+          "Enfermedades Metabólicas Hereditarias",
+          "Genética Clínica",
+          "Neurología Infantil"
+        ],
+        "coordinador_red": "Red Osakidetza de Enfermedades Raras",
+        "direccion": "Plaza de Cruces s/n, 48903 Barakaldo, Bizkaia",
+        "telefono": "+34 946 00 60 00",
+        "url_guia": "https://sindiagnostico.org/guia-del-paciente/pais-vasco/",
+        "marker-color": "#2563eb",
+        "marker-symbol": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6719,
+          40.9632
+        ]
+      },
+      "properties": {
+        "nombre": "Complejo Asistencial Universitario de Salamanca (CAUSA)",
+        "ciudad": "Salamanca",
+        "comunidad": "Castilla y León",
+        "codigo_ccaa": "castilla-y-leon",
+        "csur_designaciones": 10,
+        "especialidades_destacadas": [
+          "Mastocitosis Compleja",
+          "Hematología Genómica",
+          "Diagnóstico Avanzado DiERCyL"
+        ],
+        "coordinador_red": "Unidad de Diagnóstico Avanzado de Enfermedades Raras (DiERCyL)",
+        "direccion": "Paseo de San Vicente 58, 37007 Salamanca",
+        "telefono": "+34 923 29 11 00",
+        "url_guia": "https://sindiagnostico.org/guia-del-paciente/castilla-y-leon/",
+        "marker-color": "#2563eb",
+        "marker-symbol": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9781,
+          39.8732
+        ]
+      },
+      "properties": {
+        "nombre": "Hospital Universitario de Toledo",
+        "ciudad": "Toledo",
+        "comunidad": "Castilla-La Mancha",
+        "codigo_ccaa": "castilla-la-mancha",
+        "csur_designaciones": 8,
+        "especialidades_destacadas": [
+          "Lesión Medular Compleja",
+          "Derivación SIFCO SESCAM",
+          "Medicina Interna"
+        ],
+        "coordinador_red": "Comisión de Enfermedades Raras SESCAM",
+        "direccion": "Avenida del Río Guadiana s/n, 45007 Toledo",
+        "telefono": "+34 925 26 92 00",
+        "url_guia": "https://sindiagnostico.org/guia-del-paciente/castilla-la-mancha/",
+        "marker-color": "#2563eb",
+        "marker-symbol": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1611,
+          37.9402
+        ]
+      },
+      "properties": {
+        "nombre": "Hospital Clínico Universitario Virgen de la Arrixaca",
+        "ciudad": "El Palmar / Murcia",
+        "comunidad": "Región de Murcia",
+        "codigo_ccaa": "murcia",
+        "csur_designaciones": 11,
+        "especialidades_destacadas": [
+          "Genética Médica",
+          "Dismorfología",
+          "Bioquímica y Genética Clínica (CBGC)"
+        ],
+        "coordinador_red": "Centro de Bioquímica y Genética Clínica (CBGC)",
+        "direccion": "Ctra. Madrid-Cartagena s/n, 30120 El Palmar, Murcia",
+        "telefono": "+34 968 36 95 00",
+        "url_guia": "https://sindiagnostico.org/guia-del-paciente/murcia/",
+        "marker-color": "#2563eb",
+        "marker-symbol": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8997,
+          41.6347
+        ]
+      },
+      "properties": {
+        "nombre": "Hospital Universitario Miguel Servet",
+        "ciudad": "Zaragoza",
+        "comunidad": "Aragón",
+        "codigo_ccaa": "aragon",
+        "csur_designaciones": 9,
+        "especialidades_destacadas": [
+          "Enfermedades Metabólicas",
+          "Genética Clínica",
+          "Dismorfología"
+        ],
+        "coordinador_red": "Comisión de Enfermedades Raras SALUD Aragón",
+        "direccion": "Paseo Isabel la Católica 1-3, 50009 Zaragoza",
+        "telefono": "+34 976 76 55 00",
+        "url_guia": "https://sindiagnostico.org/guia-del-paciente/aragon/",
+        "marker-color": "#2563eb",
+        "marker-symbol": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8317,
+          43.4567
+        ]
+      },
+      "properties": {
+        "nombre": "Hospital Universitario Marqués de Valdecilla",
+        "ciudad": "Santander",
+        "comunidad": "Cantabria",
+        "codigo_ccaa": "cantabria",
+        "csur_designaciones": 12,
+        "especialidades_destacadas": [
+          "Ataxias y Paraparesias Hereditarias",
+          "Genética y Genómica Médica",
+          "Trasplante de Progenitores"
+        ],
+        "coordinador_red": "Instituto de Investigación Sanitaria Valdecilla (IDIVAL)",
+        "direccion": "Avenida Valdecilla s/n, 39008 Santander",
+        "telefono": "+34 942 20 25 20",
+        "url_guia": "https://sindiagnostico.org/guia-del-paciente/cantabria/",
+        "marker-color": "#2563eb",
+        "marker-symbol": "hospital"
+      }
+    }
+  ]
+}
