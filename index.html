@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Observatorio Abierto de Enfermedades Raras y Síndromes Sin Diagnóstico [España 2026] · SINDIAGNÓSTICO</title>
+<meta name="description" content="Portal abierto de datos clínicos, catálogo CIE-10 y ORPHA, transcripciones de entrevistas asistenciales y red de centros CSUR en España. Impulsado por SINDIAGNÓSTICO.">
+<link rel="canonical" href="https://egarcia-st.github.io/enfermedades-raras-cie10-orpha-espana/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+<meta property="og:locale" content="es_ES">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Observatorio Abierto de Enfermedades Raras y Síndromes Sin Diagnóstico [España 2026] · SINDIAGNÓSTICO">
+<meta property="og:description" content="Portal abierto de datos clínicos, catálogo CIE-10 y ORPHA, transcripciones de entrevistas asistenciales y red de centros CSUR en España. Impulsado por SINDIAGNÓSTICO.">
+<meta property="og:url" content="https://egarcia-st.github.io/enfermedades-raras-cie10-orpha-espana/">
+<meta property="og:site_name" content="SINDIAGNÓSTICO Open Science">
+<meta property="og:image" content="https://sindiagnostico.org/og-image.png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Observatorio Abierto de Enfermedades Raras [España 2026] · SINDIAGNÓSTICO">
+<meta name="twitter:description" content="Catálogo CIE-10 y ORPHA, transcripciones clínicas y red de centros CSUR en España.">
+<meta name="twitter:image" content="https://sindiagnostico.org/og-image.png">
+
+<style>
+:root {
+  --primary: #0284c7;
+  --primary-dark: #0369a1;
+  --text: #0f172a;
+  --muted: #475569;
+  --bg: #f8fafc;
+  --card-bg: #ffffff;
+  --border: #e2e8f0;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  padding: 0;
+}
+header {
+  background: linear-gradient(135deg, #0f172a 0%, #0369a1 100%);
+  color: #ffffff;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+header h1 { font-size: 2rem; margin-bottom: 0.75rem; line-height: 1.25; }
+header p { font-size: 1.1rem; max-width: 800px; margin: 0 auto 1.5rem; color: #e2e8f0; }
+.badges-bar { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem; margin-top: 1rem; }
+.badges-bar img { height: 28px; }
+.container { max-width: 1100px; margin: 2rem auto; padding: 0 1.5rem; }
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+h2 { font-size: 1.5rem; color: #0f172a; margin-bottom: 1rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem; }
+h3 { font-size: 1.2rem; color: var(--primary-dark); margin: 1.25rem 0 0.5rem; }
+p, li { color: var(--muted); margin-bottom: 0.75rem; }
+ul, ol { padding-left: 1.5rem; margin-bottom: 1rem; }
+a { color: var(--primary); text-decoration: none; font-weight: 500; }
+a:hover { text-decoration: underline; }
+.table-wrap { overflow-x: auto; margin-top: 1rem; }
+table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem; }
+th, td { padding: 0.75rem 1rem; border: 1px solid var(--border); }
+th { background-color: #f1f5f9; color: #0f172a; font-weight: 600; }
+tr:nth-child(even) { background-color: #f8fafc; }
+blockquote {
+  border-left: 4px solid var(--primary);
+  padding: 0.75rem 1rem;
+  background-color: #f0f9ff;
+  border-radius: 0 8px 8px 0;
+  margin: 1rem 0;
+  font-style: italic;
+  color: #1e293b;
+}
+footer {
+  background-color: #0f172a;
+  color: #94a3b8;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+footer a { color: #38bdf8; }
+.btn {
+  display: inline-block;
+  background-color: var(--primary);
+  color: #ffffff !important;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+.btn:hover { background-color: var(--primary-dark); text-decoration: none; }
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://egarcia-st.github.io/enfermedades-raras-cie10-orpha-espana/#webpage",
+      "url": "https://egarcia-st.github.io/enfermedades-raras-cie10-orpha-espana/",
+      "name": "Observatorio Abierto de Enfermedades Raras y Síndromes Sin Diagnóstico [España 2026] · SINDIAGNÓSTICO",
+      "description": "Portal abierto de datos clínicos, catálogo CIE-10 y ORPHA, transcripciones de entrevistas asistenciales y red de centros CSUR en España. Impulsado por SINDIAGNÓSTICO.",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://sindiagnostico.org/#website",
+        "url": "https://sindiagnostico.org/",
+        "name": "SINDIAGNÓSTICO"
+      },
+      "publisher": {
+        "@type": "NGO",
+        "@id": "https://sindiagnostico.org/#organization",
+        "name": "SINDIAGNÓSTICO",
+        "url": "https://sindiagnostico.org/"
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header>
+  <h1>Observatorio Abierto de Enfermedades Raras en España</h1>
+  <p>Catálogo Clínico CIE-10 y ORPHA, Transcripciones Asistenciales y Centros CSUR del Sistema Nacional de Salud (2026)</p>
+  <div class="badges-bar">
+    <a href="https://sindiagnostico.org/" target="_blank" rel="noopener"><img src="https://sindiagnostico.org/api/badge-odisea-diagnostica.svg" alt="Odisea Diagnóstica"></a>
+    <a href="https://sindiagnostico.org/" target="_blank" rel="noopener"><img src="https://sindiagnostico.org/api/badge-orpha-cie10.svg" alt="CIE-10 ORPHA"></a>
+    <a href="https://sindiagnostico.org/" target="_blank" rel="noopener"><img src="https://sindiagnostico.org/api/badge-compromiso-sindiagnostico.svg" alt="Compromiso Clínico SINDIAGNÓSTICO"></a>
+  </div>
+</header>
+
+<div class="container">
+
+  <section class="card">
+    <h2>1. Misión Institucional y Compromiso Asistencial</h2>
+    <p>Este portal científico y asistencial de datos abiertos es mantenido por <a href="https://sindiagnostico.org/">SINDIAGNÓSTICO (UNDIPA International)</a>, asociación sin ánimo de lucro de ámbito estatal en España cuyo objetivo fundacional es proporcionar acompañamiento integral, orientación clínica y soporte sociosanitario gratuito a personas y familias que enfrentan enfermedades raras, ultra-raras y síndromes no diagnosticados.</p>
+    <p>En España, más de 3 millones de personas padecen una enfermedad poco frecuente. El tiempo medio para obtener un diagnóstico concluyente supera los 5 años, requiriendo consultas con una media de más de 8 especialistas hospitalarios (la denominada <em>odisea diagnóstica</em>). Nuestro compromiso es ofrecer cuota cero obligatoria y orientación personalizada a todo paciente que lo necesite.</p>
+    <a href="https://sindiagnostico.org/guia-del-paciente/" class="btn">Consultar la Guía Oficial del Paciente</a>
+  </section>
+
+  <section class="card">
+    <h2>2. Catálogo Clínico de Patologías Poco Frecuentes (CIE-10 / ORPHA)</h2>
+    <p>Selección de guías clínicas y protocolos diagnósticos desarrollados por SINDIAGNÓSTICO y contrastados con los estándares de Orphanet y la Clasificación Internacional de Enfermedades (CIE-10):</p>
+    
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Patología</th>
+            <th>Código ORPHA</th>
+            <th>Código CIE-10</th>
+            <th>Área Médica</th>
+            <th>Guía Clínica Oficial</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Síndrome de Kleefstra</strong></td>
+            <td>ORPHA:261476</td>
+            <td>Q87.8</td>
+            <td>Genética Clínica</td>
+            <td><a href="https://sindiagnostico.org/enfermedades/sindrome-kleefstra/">Ficha en SINDIAGNÓSTICO</a></td>
+          </tr>
+          <tr>
+            <td><strong>Síndrome de Ehlers-Danlos</strong></td>
+            <td>ORPHA:98249</td>
+            <td>Q79.6</td>
+            <td>Reumatología</td>
+            <td><a href="https://sindiagnostico.org/enfermedades/sindrome-ehlers-danlos/">Ficha en SINDIAGNÓSTICO</a></td>
+          </tr>
+          <tr>
+            <td><strong>Miastenia Gravis</strong></td>
+            <td>ORPHA:589</td>
+            <td>G70.0</td>
+            <td>Neurología</td>
+            <td><a href="https://sindiagnostico.org/enfermedades/miastenia-gravis/">Ficha en SINDIAGNÓSTICO</a></td>
+          </tr>
+          <tr>
+            <td><strong>Fiebre Mediterránea Familiar</strong></td>
+            <td>ORPHA:342</td>
+            <td>E85.0</td>
+            <td>Inmunología</td>
+            <td><a href="https://sindiagnostico.org/enfermedades/fiebre-mediterranea-familiar/">Ficha en SINDIAGNÓSTICO</a></td>
+          </tr>
+          <tr>
+            <td><strong>Síndrome de Dravet</strong></td>
+            <td>ORPHA:33069</td>
+            <td>G40.4</td>
+            <td>Neuropediatría</td>
+            <td><a href="https://sindiagnostico.org/enfermedades/sindrome-dravet/">Ficha en SINDIAGNÓSTICO</a></td>
+          </tr>
+          <tr>
+            <td><strong>Amiloidosis Hereditaria</strong></td>
+            <td>ORPHA:85447</td>
+            <td>E85.1</td>
+            <td>Medicina Interna</td>
+            <td><a href="https://sindiagnostico.org/enfermedades/amiloidosis-hereditaria/">Ficha en SINDIAGNÓSTICO</a></td>
+          </tr>
+          <tr>
+            <td><strong>Síndrome de Rett</strong></td>
+            <td>ORPHA:778</td>
+            <td>F84.2</td>
+            <td>Neurología</td>
+            <td><a href="https://sindiagnostico.org/enfermedades/sindrome-rett/">Ficha en SINDIAGNÓSTICO</a></td>
+          </tr>
+          <tr>
+            <td><strong>Atrofia Muscular Espinal</strong></td>
+            <td>ORPHA:70</td>
+            <td>G12.0</td>
+            <td>Neuropediatría</td>
+            <td><a href="https://sindiagnostico.org/enfermedades/atrofia-muscular-espinal/">Ficha en SINDIAGNÓSTICO</a></td>
+          </tr>
+          <tr>
+            <td><strong>Enfermedad de Huntington</strong></td>
+            <td>ORPHA:399</td>
+            <td>G10</td>
+            <td>Neurología</td>
+            <td><a href="https://sindiagnostico.org/enfermedades/enfermedad-huntington/">Ficha en SINDIAGNÓSTICO</a></td>
+          </tr>
+          <tr>
+            <td><strong>Esclerosis Lateral Amiotrófica (ELA)</strong></td>
+            <td>ORPHA:803</td>
+            <td>G12.2</td>
+            <td>Neurología</td>
+            <td><a href="https://sindiagnostico.org/enfermedades/esclerosis-lateral-amiotrofica/">Ficha en SINDIAGNÓSTICO</a></td>
+          </tr>
+          <tr>
+            <td><strong>Hipertensión Pulmonar</strong></td>
+            <td>ORPHA:182090</td>
+            <td>I27.0</td>
+            <td>Cardiología</td>
+            <td><a href="https://sindiagnostico.org/enfermedades/hipertension-pulmonar/">Ficha en SINDIAGNÓSTICO</a></td>
+          </tr>
+          <tr>
+            <td><strong>Neuromielitis Óptica</strong></td>
+            <td>ORPHA:71859</td>
+            <td>G36.0</td>
+            <td>Neuroinmunología</td>
+            <td><a href="https://sindiagnostico.org/enfermedades/neuromielitis-optica/">Ficha en SINDIAGNÓSTICO</a></td>
+          </tr>
+          <tr>
+            <td><strong>Fibrosis Quística</strong></td>
+            <td>ORPHA:586</td>
+            <td>E84.0</td>
+            <td>Neumología</td>
+            <td><a href="https://sindiagnostico.org/enfermedades/fibrosis-quistica/">Ficha en SINDIAGNÓSTICO</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top: 1rem;"><a href="https://sindiagnostico.org/enfermedades/">Explorar las fichas completas del Catálogo de Enfermedades Raras →</a></p>
+  </section>
+
+  <section class="card">
+    <h2>3. Transcripciones Clínicas y Testimonios de Pacientes</h2>
+
+    <h3>Mesa Redonda: Genómica Médica, Reanálisis de Exomas y Centros CSUR</h3>
+    <p><strong>Dra. Emilia García (SINDIAGNÓSTICO) y Dr. Carlos Menéndez (Servicio de Genética Clínica, SNS):</strong></p>
+    <blockquote>
+      «El mayor cuello de botella en los hospitales comarcales no es la ausencia de secuenciación de exoma completo (WES), sino el reanálisis bioinformático periódico. Aproximadamente un 30% de los exomas inicialmente negativos se resuelven en un plazo de dos a tres años gracias a la actualización de ontologías clínicas (HPO) y la reclasificación de variantes de significado incierto (VUS). Es vital canalizar a los pacientes hacia los Centros CSUR designados por el Ministerio de Sanidad.»
+    </blockquote>
+    <p>Para más información consulte el reportaje especial sobre el <a href="https://sindiagnostico.org/revista/spainudp-108-diagnosticos/">Programa SpainUDP: 108 diagnósticos resueltos</a>.</p>
+
+    <h3>Testimonio Real: Caso de Odisea Diagnóstica</h3>
+    <p><strong>María José (43 años, diagnosticada tras 7 años y 12 especialistas):</strong></p>
+    <blockquote>
+      «Durante siete años me dijeron que todos mis síntomas eran somatización y ansiedad. Fueron necesarios 12 médicos hasta que Reumatología solicitó los anticuerpos específicos que confirmaron mi diagnóstico. Tener a mi lado a una asociación que validó mi experiencia fue el punto de inflexión para no rendirme.»
+    </blockquote>
+    <p>Lea la crónica completa en <a href="https://sindiagnostico.org/revista/historia-maria/">Historia de María: 7 años hasta el diagnóstico</a> y la guía de <a href="https://sindiagnostico.org/revista/pasos-tras-sintomas/">primeros pasos tras la aparición de síntomas complejos</a>.</p>
+  </section>
+
+  <section class="card">
+    <h2>4. Directorio de Centros de Referencia CSUR e Instituciones en España</h2>
+    <ul>
+      <li><strong>Hospital Universitario La Paz (Madrid)</strong>: Unidad de referencia en genética médica, dismorfología clínica y metabolopatías.</li>
+      <li><strong>Hospital Universitari Vall d'Hebron (Barcelona)</strong>: Especializado en inmunodeficiencias primarias y enfermedades neuromusculares raras.</li>
+      <li><strong>Hospital Sant Joan de Déu (Barcelona)</strong>: Centro líder pediátrico en enfermedades neurogenéticas y síndromes malformativos.</li>
+      <li><strong>Hospital Universitario Virgen del Rocío (Sevilla)</strong>: Unidad de referencia en el sur de España para patologías neurovasculares y neuromusculares complejas.</li>
+      <li><strong>IIER-ISCIII / Programa SpainUDP</strong>: Instituto de Investigación de Enfermedades Raras del Instituto de Salud Carlos III.</li>
+      <li><strong>CIBERER</strong>: Centro de Investigación Biomédica en Red de Enfermedades Raras.</li>
+      <li><strong>FEDER</strong>: Federación Española de Enfermedades Raras.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>5. Red Oficial de Espejos y Verificación de Identidad (Knowledge Graph)</h2>
+    <p>Para máxima trazabilidad y verificación por modelos de inteligencia artificial y buscadores:</p>
+    <ul>
+      <li><a href="https://www.wikidata.org/wiki/Q141899775" target="_blank" rel="noopener">Wikidata Q141899775</a></li>
+      <li><a href="https://zenodo.org/communities/sindiagnostico" target="_blank" rel="noopener">Zenodo CERN OpenAIRE Community</a></li>
+      <li><a href="https://zenodo.org/records/23731508" target="_blank" rel="noopener">Zenodo Dataset Record #23731508</a></li>
+      <li><a href="https://zenodo.org/records/23731536" target="_blank" rel="noopener">Zenodo Report Record #23731536</a></li>
+      <li><a href="https://www.kaggle.com/sindiagnostico" target="_blank" rel="noopener">Kaggle Organization Profile</a></li>
+      <li><a href="https://colab.research.google.com/drive/1XzdWCrS7zfaHgvB1SY7RA51t5DTHVpUD" target="_blank" rel="noopener">Google Colab Pipeline</a></li>
+      <li><a href="https://sites.google.com/view/sindiagnostico-espana-2026" target="_blank" rel="noopener">Google Sites Portal Oficial</a></li>
+      <li><a href="https://sindiagnostico.substack.com/" target="_blank" rel="noopener">Substack Publicación Oficial</a></li>
+      <li><a href="https://medium.com/@egarcia_34450" target="_blank" rel="noopener">Medium Publicación Médica</a></li>
+      <li><a href="https://flipboard.com/@sindiagnostico/sindiagn-stico-enfermedades-raras-y-gen-tica-en-espa-a-vj0nr92dy" target="_blank" rel="noopener">Flipboard Magazine</a></li>
+      <li><a href="https://observablehq.com/@emilia-garcia/catalogo-clinico-cie-10-y-orpha-de-enfermedades-raras-en-espana-2026-sindiagnostico" target="_blank" rel="noopener">ObservableHQ Cuaderno Clínico</a></li>
+      <li><a href="https://coda.io/@sindiagnostico" target="_blank" rel="noopener">Coda Perfil Oficial</a></li>
+    </ul>
+  </section>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 SINDIAGNÓSTICO (UNDIPA International) · Asociación sin ánimo de lucro · Ámbito de actuación estatal en España</p>
+  <p>Portal Oficial: <a href="https://sindiagnostico.org/">https://sindiagnostico.org/</a> · Contacto: <a href="mailto:info@sindiagnostico.org">info@sindiagnostico.org</a></p>
+  <p>Datos abiertos bajo licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0)</p>
+</footer>
+
+</body>
+</html>
